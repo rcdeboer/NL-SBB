@@ -3,20 +3,20 @@ let respecConfig = {
     useLogo: true,
     useLabel: true,
      // title is verplicht! Neem hier de titel van het document op ----------------------
-    title: "SBB - Standaard voor het beschrijven van begrippen",
+    title: "NL-SBB - Standaard voor het beschrijven van begrippen",
     // subtitle is NIET verplicht
     // subtitle: "Subtitle",
     specStatus: "vv",               // Versie ter vaststelling
     specType: "ST",                   // Standaard
-    pubDomain: "sbb",
+    pubDomain: "NL-SBB",
     license: "cc-by",
     shortName: "sbb",
     // edDraftURI: "https://profielstelselcatalogus.pldn.nl",
     publishVersion: "1.0",
-    publishDate: "2024-03-01",
+    publishDate: "2024-04-16",
     previousPublishVersion: "1.0",
-    previousPublishDate: "2023-10-30",
-    previousMaturity: "cv",
+    previousPublishDate: "2023-03-01",
+    previousMaturity: "vv",
     editors: [
         {
             name: "Jesse Bakker"
@@ -81,8 +81,8 @@ let respecConfig = {
             name: "Jan Willem van Veen (ArchiXL)"
         },
     ],
-    github: "pldn/nederlands-profiel-voor-stelselcatalogi",
-    issueBase: "https://github.com/pldn/nederlands-profiel-voor-stelselcatalogi/issues/",
+    github: "geonovum/NL-SBB",
+    issueBase: "https://github.com/Geonovum/NL-SBB/issues",
     maxTocLevel: 3,
     localBiblio: {
         SKOS: 
@@ -209,10 +209,16 @@ let respecConfig = {
         },
     },
     nl_organisationName: "Geonovum",
-    nl_organisationPublishURL: "https://profielstelselcatalogus.pldn.nl",
-    latestVersion: ["nl_organisationPublishURL"],
-    thisVersion: ["nl_organisationPublishURL", "specStatus", "-", "shortName", "-", "publishDate"],
-    prevVersion: ["nl_organisationPublishURL", "previousMaturity", "-", "shortName", "-", "previousPublishDate"],
+    nl_organisationPublishURL: "https://docs.geostandaarden.nl",
+
+	latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/"],
+    thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
+    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
+ 
+//		pldn settings
+//    latestVersion: ["nl_organisationPublishURL"],
+//    thisVersion: ["nl_organisationPublishURL", "specStatus", "-", "shortName", "-", "publishDate"],
+//    prevVersion: ["nl_organisationPublishURL", "previousMaturity", "-", "shortName", "-", "previousPublishDate"],
 
     addSectionLinks: true,
 

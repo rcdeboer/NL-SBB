@@ -1,11 +1,11 @@
 var organisationConfig = {
-    nl_organisationName: " ",
+    nl_organisationName: "Geonovum",
     // werkt nog niet 
     // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/gn-algemeen/style/",
     // bv styles url voor ander GN publicatiedomein met eigen stijlen zoals DSO of BRO:
     // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/dso/style/",
     // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/bro/style/",
-    nl_organisationPublishURL: "https://profielstelselcatalogus.pldn.nl",
+    nl_organisationPublishURL: "https://docs.geostandaarden.nl/NL-SBB",
 
 	
 	postProcess: [window.respecMermaid.createFigures],

@@ -41,14 +41,14 @@ In de NORA werkgroep begrippenkader hanteert men de [ISO 704](https://www.iso.or
 Vanuit de Stichting SURVUZ zijn de volgende typen definities aangedragen:
 * **Type 1**: Typering (genus/differentia) - BEGRIP is afgeleide van hoger liggend begrip, met onderscheidend kenmerk X (overerving, generalisatie, supertype).
   *Voorbeeld: bles. Een paard met een wit voorhoofd. Palomino. Een paard met witte stippen.
-  *Afgedekte relaties uit SBB: «heeft bovenliggend begrip», «is specialisatie van», «is exemplaar van», «is categorie van», «is onderdeel van».
+  *Afgedekte relaties uit NL-SBB: «heeft bovenliggend begrip», «is specialisatie van», «is exemplaar van», «is categorie van», «is onderdeel van».
 * **Type 2**: Samenstelling (totum/dividere) - BEGRIP is een geheel dat is beschreven door de delen te beschrijven (hiërarchie, geheel/deel).
   *Voorbeeld: organisatie. Een stel mensen die dingen doen met spullen. 
   *Voorbeeld: trein. Een locomotief met wagons.
-  *Afgedekte relaties uit SBB: «omvat»
+  *Afgedekte relaties uit NL-SBB: «omvat»
 * **Type 3**: Onderdeel (pars) - BEGRIP is een onderdeel van een groter geheel, met een specifiek kenmerk.
   * Voorbeeld: blad – Een onderdeel van een plantaardig organisme, dat zich uitstrekt vanuit de stengel en dat een essentieel onderdeel vormt van het fotosyntheseproces.
-  * Afgedekte relaties uit SBB: «heeft bovenliggend begrip», «is onderdeel van»
+  * Afgedekte relaties uit NL-SBB: «heeft bovenliggend begrip», «is onderdeel van»
 * **Type 4**: Relatie (associatio) - BEGRIP is een relatie tussen twee entiteiten (een associatie).
   *Voorbeeld: huwelijk - Een juridische relatie tussen twee personen.
 * **Type 5**: Kenmerk (signum) - BEGRIP is een kenmerk van een entiteit (een eigenschap).
@@ -379,7 +379,7 @@ Met deze keuze voor de taalbinding is het van belang om rekening te houden met d
 
 #### Taalbinding Begrippenkader en Dataset (eenheid van publicatie, eenheid van beheer)
 
-In de SBB wordt gesproken over "Begrippenkader" en "in kader". De taalbinding voor deze twee termen is als volgt:
+In de NL-SBB wordt gesproken over "Begrippenkader" en "in kader". De taalbinding voor deze twee termen is als volgt:
 - Begrippenkader = `skos:ConceptScheme`;
 - in kader = `skos:inScheme`
 
@@ -396,7 +396,7 @@ Cognitief maken mensen niet altijd een onderscheid tussen het ding-als-concept (
 Indien een begrippenkader dus ook beoogd is als de dataset, dan geldt bovendien *ook* nog de taalbinding:
 - Begrippenkader = `skos:ConceptScheme` EN `dcat:Dataset`
 
-Het term "Begrippenkader" en synoniemen als "Taxonomie", "Thesaurus" of "Begrippenstelsel" zijn daarmee zowel bruikbaar voor situaties waarbij een abstracte verzameling van begrippen wordt bedoeld (via `skos:inScheme`) en voor situaties waar bij een verzameling van beschrijvingen van dergelijke begrippen wordt bedoeld (via `dcat:Dataset`). Alleen als in de taalbinding beide aanwezig zijn, is sprake van *punning* en wordt zowel een abstracte verzameling van begrippen bedoeld als een verzameling van beschrijvingen. Dit is een ruime opvatting van de definitie van begrippenkader maar dit wordt niet uitgesloten in SBB.
+Het term "Begrippenkader" en synoniemen als "Taxonomie", "Thesaurus" of "Begrippenstelsel" zijn daarmee zowel bruikbaar voor situaties waarbij een abstracte verzameling van begrippen wordt bedoeld (via `skos:inScheme`) en voor situaties waar bij een verzameling van beschrijvingen van dergelijke begrippen wordt bedoeld (via `dcat:Dataset`). Alleen als in de taalbinding beide aanwezig zijn, is sprake van *punning* en wordt zowel een abstracte verzameling van begrippen bedoeld als een verzameling van beschrijvingen. Dit is een ruime opvatting van de definitie van begrippenkader maar dit wordt niet uitgesloten in NL-SBB.
 
 > Advies is om expliciet aan te geven bij de beschrijving van een begrippenkader of ook sprake is van een eenheid van beheer, publicatie of herkomst.
 
