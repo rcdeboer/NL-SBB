@@ -34,7 +34,7 @@ var documentConfig =
   publishDate: "2024-04-16",
   previousPublishDate: "2024-03-01",
   previousMaturity: "vv",
-  edDraftURI: "",
+  edDraftURI: "https://geonovum.github.io/NL-SBB/",
   authors: [
         {
             name: "Jos van der Arend (Kennisnet)"
