@@ -67,7 +67,7 @@ var documentConfig =
             name: "Pano Maria (Skemu)"
         },
         {
-            name: "Rik (CROW)"
+            name: "Rik Opgenoort(CROW)"
         },
         {
             name: "Hans Overbeek (KOOP)"
