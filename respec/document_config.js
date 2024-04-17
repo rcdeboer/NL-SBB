@@ -107,11 +107,11 @@ var documentConfig =
     alternateFormats: [
         {
           label: "SHACL",
-          uri: "https://raw.githubusercontent.com/pldn/nederlands-profiel-voor-stelselcatalogi/main/profiles/skos-ap-nl.ttl",
+          uri: "https://raw.githubusercontent.com/geonovum/NL-SBB/main/profiles/skos-ap-nl.ttl",
         },
         {
           label: "SKOS",
-          uri: "https://raw.githubusercontent.com/pldn/nederlands-profiel-voor-stelselcatalogi/main/concepts/thesaurus.ttl",
+          uri: "https://raw.githubusercontent.com/geonovum/NL-SBB/main/concepts/thesaurus.ttl",
         },
     ],
     labelColor: {
